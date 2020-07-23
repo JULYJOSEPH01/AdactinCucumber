@@ -1,0 +1,809 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_login__application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-16T12:14:44.241Z",
+        "line": 15,
+        "name": "verify user enable to login functionality properly",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;verify-user-enable-to-login-functionality-properly;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 734000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user should  enter \"JULYJOSEPH\" in specific textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JULYJOSEPH\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.adactin.stepdefinition.Adactin.verify_user_should_enter_in_specific_textbox(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 483000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user shoud enter \"L43454\" in textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"L43454\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.adactin.stepdefinition.Adactin.verify_user_shoud_enter_in_textbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5567000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on the login biutton",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.click_on_the_login_biutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click into new page",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.click_into_new_page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_login__application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-16T12:14:53.041Z",
+        "line": 30,
+        "name": "To verify ensure all To verify whether locations in Select Hotel page are displayed according tothe locationselected inSearch Hotel",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;to-verify-ensure-all-to-verify-whether-locations-in-select-hotel-page-are-displayed-according-tothe-locationselected-insearch-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 387000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User should Select location",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_Select_location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user should select the hotelname",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_select_the_hotelname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should enable to select type of room",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_enable_to_select_type_of_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User should enable to select no of rooms",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_enable_to_select_no_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 844000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user should entered check in date",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entered_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user should enable to type check out date",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_enable_to_type_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user should enable to select no of room from  options for adult and for children also",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_enable_to_select_no_of_room_from_options_for_adult_and_for_children_also()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user should enable for clicking search button other wise user enable to reset their data also",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_enable_for_clicking_search_button_other_wise_user_enable_to_reset_their_data_also()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user should entered into new page displaying all data",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entered_into_new_page_displaying_all_data()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_login__application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-16T12:14:56.243Z",
+        "line": 42,
+        "name": "To verify all displye data  verify location name checkin checkout no of rooms roomtype price",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;to-verify-all-displye-data--verify-location-name-checkin-checkout-no-of-rooms-roomtype-price",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "usher should compare the location which is selected same as that of location in page of in search of hotel",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.usher_should_compare_the_location_which_is_selected_same_as_that_of_location_in_page_of_in_search_of_hotel()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user should compare checkin date",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_compare_checkin_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user should compare checkout date",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_compare_checkout_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user should compare no of rooms selected as same",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_compare_no_of_rooms_selected_as_same()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user should compare roomtype as same as you selected",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_compare_roomtype_as_same_as_you_selected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user should compare price which is calculated same as formula",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_compare_price_which_is_calculated_same_as_formula()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user should entered all data  correctly",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entered_all_data_correctly()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_login__application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-16T12:14:56.465Z",
+        "line": 68,
+        "name": "verify ordernumber generated in confirmation page",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;verify-ordernumber-generated-in-confirmation-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User should verify all displayed data",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_verify__displayed_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 197000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User should click on select option",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_click_on_select_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 894000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User should click on continue button",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User should entering into confirmation page",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_into_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User should entering firstname in the textbox",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_firstname_in_the_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195000000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User should  entering lastname in the specific textbox",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_lastname_in_the_specific_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 385000000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User should entering billing address entering in textbox",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_billing_address_entering_in_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User should entering creditcard number",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_creditcard_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User should entering credit card type",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User should entering creditcard expiringdetails",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_creditcard_expiringdetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283000000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User should entered cvv number",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entered_cvv_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "User should recieve ordernumber",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_recieve_ordernumber()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_login__application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-16T12:14:59.202Z",
+        "line": 83,
+        "name": "Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during booking",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;verify-that-all-the-details-of-newly-generated-ordered-number-in-booked-itinerary-page-are-correct-and-match-with-data-during-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 708000000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "User should click on the booked itenary button",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_click_on_the_booked_itenary_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "User should see booked itenary page",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_see_booked_itenary_page()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_login__application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-16T12:14:59.930Z",
+        "line": 88,
+        "name": "Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during bookin",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;verify-that-all-the-details-of-newly-generated-ordered-number-in-booked-itinerary-page-are-correct-and-match-with-data-during-bookin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Usr should verify firstname compare with confirmation page",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.usr_should_verify_firstname_compare_with_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "User should verify lastname compare with confirmation page",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_verify_lastname_compare_with_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "User should verify roomtype compare with confirmation page",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_verify_roomtype_compare_with_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "User should verify roomnumber compare with confirmation page",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_verify_roomnumber_compare_with_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "User should verify price compare with formula price\u003d price per night*no of days*no of rooms",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_verify_price_compare_with_formula_price_price_per_night_no_of_days_no_of_rooms()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_login__application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-16T12:15:00.052Z",
+        "line": 96,
+        "name": "To check whether “search order id” query is working and displaying the relevant details.",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;to-check-whether-“search-order-id”-query-is-working-and-displaying-the-relevant-details.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 416000000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "User should entering search order id",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_entering_search_order_id()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 554000000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User should  click on go button",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_click_on_go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "User should  display relevant details",
+            "match": {
+              "location": "com.adactin.stepdefinition.Adactin.user_should_display_relevant_details()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      }
+    ],
+    "name": "Booking a hotelroom using automation testscript",
+    "description": "",
+    "id": "booking-a-hotelroom-using-automation-testscript",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/opencart/feature/Adactin.feature",
+    "tags": [
+      {
+        "name": "@Bookinghotel",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

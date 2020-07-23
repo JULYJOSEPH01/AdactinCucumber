@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.243">
+<testcase classname="Booking a hotelroom using automation testscript" name="verify user enable to login functionality properly" time="0.09">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User login the application............................................undefined
+Then verify user should  enter "JULYJOSEPH" in specific textbox.............skipped
+And Verify user shoud enter "L43454" in textbox.............................skipped
+And click on the login biutton..............................................skipped
+When click into new page....................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

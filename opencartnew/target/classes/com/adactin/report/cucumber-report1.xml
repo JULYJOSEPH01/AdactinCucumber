@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="20.674">
+<testcase classname="Booking a hotelroom using automation testscript" name="verify user enable to login functionality properly" time="8.721">
+<system-out><![CDATA[Given User login the application............................................passed
+Then verify user should  enter "JULYJOSEPH" in specific textbox.............passed
+And Verify user shoud enter "L43454" in textbox.............................passed
+And click on the login biutton..............................................passed
+When click into new page....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Booking a hotelroom using automation testscript" name="To verify ensure all To verify whether locations in Select Hotel page are displayed according tothe locationselected inSearch Hotel" time="3.164">
+<system-out><![CDATA[Given User login the application............................................passed
+Then User should Select location............................................passed
+And user should select the hotelname........................................passed
+And User should enable to select type of room...............................passed
+And User should enable to select no of rooms................................passed
+And user should entered check in date.......................................passed
+And user should enable to type check out date...............................passed
+And user should enable to select no of room from  options for adult and for children also.passed
+And user should enable for clicking search button other wise user enable to reset their data also.passed
+When user should entered into new page displaying all data..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Booking a hotelroom using automation testscript" name="To verify all displye data  verify location name checkin checkout no of rooms roomtype price" time="0.21">
+<system-out><![CDATA[Given User login the application............................................passed
+Then usher should compare the location which is selected same as that of location in page of in search of hotel.passed
+And user should compare checkin date........................................passed
+And user should compare checkout date.......................................passed
+And user should compare no of rooms selected as same........................passed
+And user should compare roomtype as same as you selected....................passed
+And user should compare price which is calculated same as formula...........passed
+When user should entered all data  correctly................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Booking a hotelroom using automation testscript" name="verify ordernumber generated in confirmation page" time="2.724">
+<system-out><![CDATA[Given User login the application............................................passed
+Then User should verify all displayed data..................................passed
+And User should click on select option......................................passed
+And User should click on continue button....................................passed
+And User should entering into confirmation page.............................passed
+And User should entering firstname in the textbox...........................passed
+And User should  entering lastname in the specific textbox..................passed
+And User should entering billing address entering in textbox................passed
+And User should entering creditcard number..................................passed
+And User should entering credit card type...................................passed
+And User should entering creditcard expiringdetails.........................passed
+And User should entered cvv number..........................................passed
+When User should recieve ordernumber........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Booking a hotelroom using automation testscript" name="Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during booking" time="0.715">
+<system-out><![CDATA[Given User login the application............................................passed
+Then User should click on the booked itenary button.........................passed
+When User should see booked itenary page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Booking a hotelroom using automation testscript" name="Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during bookin" time="0.115">
+<system-out><![CDATA[Given User login the application............................................passed
+Then Usr should verify firstname compare with confirmation page.............passed
+And User should verify lastname compare with confirmation page..............passed
+And User should verify roomtype compare with confirmation page..............passed
+And User should verify roomnumber compare with confirmation page............passed
+And User should verify price compare with formula price= price per night*no of days*no of rooms.passed
+]]></system-out>
+</testcase>
+<testcase classname="Booking a hotelroom using automation testscript" name="To check whether “search order id” query is working and displaying the relevant details." time="0.979">
+<system-out><![CDATA[Given User login the application............................................passed
+Then User should entering search order id...................................passed
+And User should  click on go button.........................................passed
+When User should  display relevant details..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

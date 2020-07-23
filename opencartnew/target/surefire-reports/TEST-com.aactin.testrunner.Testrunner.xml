@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.aactin.testrunner.Testrunner" time="130.208" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\doniv08\eclipse-workspace\Adactinopencart\target\test-classes;C:\Users\doniv08\eclipse-workspace\Adactinopencart\target\classes;C:\Users\doniv08\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\doniv08\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\doniv08\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\doniv08\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\doniv08\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\doniv08\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\doniv08\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\doniv08\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\doniv08\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\doniv08\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\doniv08\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\doniv08\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\doniv08\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\doniv08\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\doniv08\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\doniv08\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\doniv08\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\doniv08\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\doniv08\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-core\6.0.0\cucumber-core-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-gherkin\6.0.0\cucumber-gherkin-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.0.0\cucumber-gherkin-messages-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\doniv08\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-plugin\6.0.0\cucumber-plugin-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\docstring\6.0.0\docstring-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\html-formatter\6.0.2\html-formatter-6.0.2.jar;C:\Users\doniv08\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-java\6.0.0\cucumber-java-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-junit\6.0.0\cucumber-junit-6.0.0.jar;C:\Users\doniv08\.m2\repository\net\masterthought\cucumber-reporting\5.3.0\cucumber-reporting-5.3.0.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\doniv08\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\doniv08\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\doniv08\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\doniv08\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\doniv08\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\doniv08\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\doniv08\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\doniv08\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\doniv08\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\doniv08\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\doniv08\AppData\Local\Temp\surefire5366370687861586218\surefirebooter345339465652374385.jar C:\Users\doniv08\AppData\Local\Temp\surefire5366370687861586218 2020-07-16T17-42-49_603-jvmRun1 surefire1489409411490644741tmp surefire_03877437487013491463tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\doniv08\eclipse-workspace\Adactinopencart\target\test-classes;C:\Users\doniv08\eclipse-workspace\Adactinopencart\target\classes;C:\Users\doniv08\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\doniv08\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\doniv08\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\doniv08\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\doniv08\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\doniv08\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\doniv08\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\doniv08\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\doniv08\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\doniv08\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\doniv08\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\doniv08\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\doniv08\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\doniv08\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\doniv08\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\doniv08\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\doniv08\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\doniv08\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\doniv08\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\doniv08\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-core\6.0.0\cucumber-core-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-gherkin\6.0.0\cucumber-gherkin-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.0.0\cucumber-gherkin-messages-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\messages\12.1.1\messages-12.1.1.jar;C:\Users\doniv08\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-expressions\10.2.0\cucumber-expressions-10.2.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-plugin\6.0.0\cucumber-plugin-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\docstring\6.0.0\docstring-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\html-formatter\6.0.2\html-formatter-6.0.2.jar;C:\Users\doniv08\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-java\6.0.0\cucumber-java-6.0.0.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\doniv08\.m2\repository\io\cucumber\cucumber-junit\6.0.0\cucumber-junit-6.0.0.jar;C:\Users\doniv08\.m2\repository\net\masterthought\cucumber-reporting\5.3.0\cucumber-reporting-5.3.0.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\doniv08\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\doniv08\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\doniv08\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\doniv08\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\doniv08\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\doniv08\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\doniv08\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\doniv08\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\doniv08\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\doniv08\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\doniv08\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\doniv08\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\doniv08"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="basedir" value="C:\Users\doniv08\eclipse-workspace\Adactinopencart"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\doniv08\AppData\Local\Temp\surefire5366370687861586218\surefirebooter345339465652374385.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="doniv08"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\doniv08\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\doniv08\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="C:\Users\doniv08\eclipse-workspace\Adactinopencart"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;c:\programfiles\Oracle\java\javapath;C:\Program Files\appfolder\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_191\bin;C:\gradle-6.5.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verify user enable to login functionality properly" classname="Booking a hotelroom using automation testscript" time="12.226">
+    <system-out><![CDATA[
+@Bookinghotel @Sc11
+Scenario Outline: verify user enable to login functionality properly &amp#27;[90m# src/test/java/com/opencart/feature/Adactin.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser login the application&amp#27;[0m                                   &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_login__application()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify user should  enter &amp#27;[0m&amp#27;[32m&amp#27;[1m"JULYJOSEPH"&amp#27;[0m&amp#27;[32m in specific textbox&amp#27;[0m    &amp#27;[90m# com.adactin.stepdefinition.Adactin.verify_user_should_enter_in_specific_textbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mVerify user shoud enter &amp#27;[0m&amp#27;[32m&amp#27;[1m"L43454"&amp#27;[0m&amp#27;[32m in textbox&amp#27;[0m                    &amp#27;[90m# com.adactin.stepdefinition.Adactin.verify_user_shoud_enter_in_textbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on the login biutton&amp#27;[0m                                     &amp#27;[90m# com.adactin.stepdefinition.Adactin.click_on_the_login_biutton()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick into new page&amp#27;[0m                                           &amp#27;[90m# com.adactin.stepdefinition.Adactin.click_into_new_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 41523
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 16, 2020 5:44:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="To verify ensure all To verify whether locations in Select Hotel page are displayed according tothe locationselected inSearch Hotel" classname="Booking a hotelroom using automation testscript" time="3.461">
+    <system-out><![CDATA[
+@Bookinghotel @Sc11
+Scenario: To verify ensure all To verify whether locations in Select Hotel page are displayed according tothe locationselected inSearch Hotel &amp#27;[90m# src/test/java/com/opencart/feature/Adactin.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser login the application&amp#27;[0m                                                                                                            &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_login__application()&amp#27;[0m
+Sydney
+location displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should Select location&amp#27;[0m                                                                                                            &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_Select_location()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should select the hotelname&amp#27;[0m                                                                                                        &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_select_the_hotelname()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should enable to select type of room&amp#27;[0m                                                                                               &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_enable_to_select_type_of_room()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should enable to select no of rooms&amp#27;[0m                                                                                                &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_enable_to_select_no_of_rooms()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should entered check in date&amp#27;[0m                                                                                                       &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entered_check_in_date()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should enable to type check out date&amp#27;[0m                                                                                               &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_enable_to_type_check_out_date()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should enable to select no of room from  options for adult and for children also&amp#27;[0m                                                   &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_enable_to_select_no_of_room_from_options_for_adult_and_for_children_also()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should enable for clicking search button other wise user enable to reset their data also&amp#27;[0m                                           &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_enable_for_clicking_search_button_other_wise_user_enable_to_reset_their_data_also()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser should entered into new page displaying all data&amp#27;[0m                                                                                  &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entered_into_new_page_displaying_all_data()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="To verify all displye data  verify location name checkin checkout no of rooms roomtype price" classname="Booking a hotelroom using automation testscript" time="0.132">
+    <system-out><![CDATA[
+@Bookinghotel @Sc11
+Scenario: To verify all displye data  verify location name checkin checkout no of rooms roomtype price            &amp#27;[90m# src/test/java/com/opencart/feature/Adactin.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser login the application&amp#27;[0m                                                                                &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_login__application()&amp#27;[0m
+Sydney
+location displayed correctly
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32musher should compare the location which is selected same as that of location in page of in search of hotel&amp#27;[0m &amp#27;[90m# com.adactin.stepdefinition.Adactin.usher_should_compare_the_location_which_is_selected_same_as_that_of_location_in_page_of_in_search_of_hotel()&amp#27;[0m
+12/06/2020
+checkindate displayed correctly
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should compare checkin date&amp#27;[0m                                                                            &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_compare_checkin_date()&amp#27;[0m
+16/06/2020
+checckoutdate displayed correctly
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should compare checkout date&amp#27;[0m                                                                           &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_compare_checkout_date()&amp#27;[0m
+1 Rooms
+no of room displayed correctly
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should compare no of rooms selected as same&amp#27;[0m                                                            &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_compare_no_of_rooms_selected_as_same()&amp#27;[0m
+Double
+roomtype displayed correctly
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should compare roomtype as same as you selected&amp#27;[0m                                                        &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_compare_roomtype_as_same_as_you_selected()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser should compare price which is calculated same as formula&amp#27;[0m                                               &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_compare_price_which_is_calculated_same_as_formula()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser should entered all data  correctly&amp#27;[0m                                                                    &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entered_all_data_correctly()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="verify ordernumber generated in confirmation page" classname="Booking a hotelroom using automation testscript" time="2.584">
+    <system-out><![CDATA[
+@Bookinghotel @Sc11
+Scenario: verify ordernumber generated in confirmation page    &amp#27;[90m# src/test/java/com/opencart/feature/Adactin.feature:68&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser login the application&amp#27;[0m                             &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_login__application()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should verify all displayed data&amp#27;[0m                   &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_verify__displayed_data()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should click on select option&amp#27;[0m                       &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_click_on_select_option()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should click on continue button&amp#27;[0m                     &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_click_on_continue_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should entering into confirmation page&amp#27;[0m              &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_into_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should entering firstname in the textbox&amp#27;[0m            &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_firstname_in_the_textbox()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should  entering lastname in the specific textbox&amp#27;[0m   &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_lastname_in_the_specific_textbox()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should entering billing address entering in textbox&amp#27;[0m &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_billing_address_entering_in_textbox()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should entering creditcard number&amp#27;[0m                   &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_creditcard_number()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should entering credit card type&amp#27;[0m                    &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_credit_card_type()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should entering creditcard expiringdetails&amp#27;[0m          &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_creditcard_expiringdetails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should entered cvv number&amp#27;[0m                           &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entered_cvv_number()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser should recieve ordernumber&amp#27;[0m                         &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_recieve_ordernumber()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during booking" classname="Booking a hotelroom using automation testscript" time="0.711">
+    <system-out><![CDATA[
+@Bookinghotel @Sc11
+Scenario: Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during booking &amp#27;[90m# src/test/java/com/opencart/feature/Adactin.feature:83&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser login the application&amp#27;[0m                                                                                                              &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_login__application()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should click on the booked itenary button&amp#27;[0m                                                                                           &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_click_on_the_booked_itenary_button()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser should see booked itenary page&amp#27;[0m                                                                                                      &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_see_booked_itenary_page()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during bookin" classname="Booking a hotelroom using automation testscript" time="0.133">
+    <system-out><![CDATA[
+@Bookinghotel @Sc11
+Scenario: Verify that all the details of newly generated ordered number in booked itinerary page are correct and match with data during bookin &amp#27;[90m# src/test/java/com/opencart/feature/Adactin.feature:88&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser login the application&amp#27;[0m                                                                                                             &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_login__application()&amp#27;[0m
+in booked itenary page
+firstname displayed correctly
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUsr should verify firstname compare with confirmation page&amp#27;[0m                                                                              &amp#27;[90m# com.adactin.stepdefinition.Adactin.usr_should_verify_firstname_compare_with_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should verify lastname compare with confirmation page&amp#27;[0m                                                                               &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_verify_lastname_compare_with_confirmation_page()&amp#27;[0m
+in booked itenary page
+room displayed correctly
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should verify roomtype compare with confirmation page&amp#27;[0m                                                                               &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_verify_roomtype_compare_with_confirmation_page()&amp#27;[0m
+in booked itenary page
+roomtype displayed correctly
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should verify roomnumber compare with confirmation page&amp#27;[0m                                                                             &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_verify_roomnumber_compare_with_confirmation_page()&amp#27;[0m
+in booked itenary page
+price displayed correctly
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should verify price compare with formula price= price per night*no of days*no of rooms&amp#27;[0m                                              &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_verify_price_compare_with_formula_price_price_per_night_no_of_days_no_of_rooms()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="To check whether “search order id” query is working and displaying the relevant details." classname="Booking a hotelroom using automation testscript" time="0.963">
+    <system-out><![CDATA[
+@Bookinghotel @Sc11
+Scenario: To check whether â€œsearch order idâ€� query is working and displaying the relevant details. &amp#27;[90m# src/test/java/com/opencart/feature/Adactin.feature:96&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser login the application&amp#27;[0m                                                                 &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_login__application()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should entering search order id&amp#27;[0m                                                        &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_entering_search_order_id()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should  click on go button&amp#27;[0m                                                              &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_click_on_go_button()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser should  display relevant details&amp#27;[0m                                                       &amp#27;[90m# com.adactin.stepdefinition.Adactin.user_should_display_relevant_details()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

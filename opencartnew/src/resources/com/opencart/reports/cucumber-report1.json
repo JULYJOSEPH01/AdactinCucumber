@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User login the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User login the application",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-14T10:41:26.205Z",
+        "line": 15,
+        "name": "verify user enable to login functionality properly",
+        "description": "",
+        "id": "booking-a-hotelroom-using-automation-testscript;verify-user-enable-to-login-functionality-properly;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "verify user should  enter \"JULYJOSEPH\" in specific textbox",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Verify user shoud enter \"L43454\" in textbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on the login biutton",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click into new page",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bookinghotel"
+          },
+          {
+            "name": "@Sc11"
+          }
+        ]
+      }
+    ],
+    "name": "Booking a hotelroom using automation testscript",
+    "description": "",
+    "id": "booking-a-hotelroom-using-automation-testscript",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/opencart/feature/Adactin.feature",
+    "tags": [
+      {
+        "name": "@Bookinghotel",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
